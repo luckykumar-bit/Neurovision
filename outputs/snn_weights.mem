@@ -1,0 +1,55 @@
+// Signed 16-bit Q8.8 words; parameter order documented below
+// fc1.weight shape=(8, 3)
+00AF
+0029
+00BA
+0030
+FF4C
+FF4F
+0087
+00D0
+00CF
+00D5
+0028
+00C5
+0048
+00E1
+00D8
+0074
+00C1
+0067
+0023
+FFAC
+FF79
+FFA8
+FF7C
+FF62
+// fc1.bias shape=(8,)
+015F
+00D3
+FFA6
+0155
+FFE1
+000D
+0077
+0110
+// fc2.weight shape=(2, 8)
+FFE1
+FEA1
+0094
+FFBF
+009B
+0052
+FF2A
+FF4B
+00CC
+0144
+FF91
+0060
+FF50
+FFC7
+00BA
+01D3
+// fc2.bias shape=(2,)
+FFE8
+0038
