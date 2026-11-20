@@ -9,7 +9,16 @@ from pathlib import Path
 from datetime import datetime
 import pandas as pd
 import json
+from authentication import authentication_ui
+# Authentication gate
+if not authentication_ui():
+    st.stop()
 
+# ==================================
+# YOUR EXISTING AGROSNN APPLICATION
+# ==================================
+
+st.sidebar.title("AgroSNN")
 
 # =========================================================
 # 1. CONFIGURATION
